@@ -4,44 +4,97 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## 👋 স্বাগতম JavaScript ডকুমেন্টেশনে!
 
-Get started by **creating a new site**.
+এই ডকুমেন্টেশনটি তৈরি করা হয়েছে তাদের জন্য যারা JavaScript শিখতে চায় একদম **শূন্য থেকে প্রফেশনাল লেভেল পর্যন্ত**। আপনি যদি একজন নতুন প্রোগ্রামার হন অথবা যদি অভিজ্ঞ ডেভেলপার হিসেবে আপনার স্কিল আরও গভীর করতে চান — তাহলে আপনি সঠিক জায়গায় এসেছেন।
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+---
 
-### What you'll need
+### 🔰 কি থাকছে এই ডকুমেন্টেশনে?
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+#### 🟢 **১. JavaScript Basics**
 
-## Generate a new site
+প্রোগ্রামিংয়ের প্রথম ধাপ শুরু হবে এখান থেকে:
 
-Generate a new Docusaurus site using the **classic template**.
+* কীভাবে JavaScript কাজ করে
+* ভ্যারিয়েবল (var, let, const)
+* ডেটা টাইপস (String, Number, Boolean, Null, Undefined)
+* অপারেটর (Arithmetic, Comparison, Logical)
+* কন্ডিশন (if, else, switch)
+* লুপ (for, while, do...while)
 
-The classic template will automatically be added to your project after you run the command:
+#### 🟡 **২. Function & Scope**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+JavaScript এর প্রাণ হলো ফাংশন:
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+* Function Declaration vs Expression
+* Arrow Functions
+* Scope & Block Scope
+* Hoisting
+* Closures (অত্যন্ত গুরুত্বপূর্ণ কনসেপ্ট)
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+#### 🟠 **৩. Arrays & Objects**
 
-## Start your site
+ডেটা স্ট্রাকচারের মজার দুনিয়ায়:
 
-Run the development server:
+* Array Methods (map, filter, reduce, forEach)
+* Object Properties & Methods
+* Destructuring
+* Spread & Rest Operator
+* Nested Structure নিয়ে কাজ করা
 
-```bash
-cd my-website
-npm run start
-```
+#### 🔵 **৪. DOM (Document Object Model)**
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+ইন্টার‌্যাক্টিভ ওয়েবপেজ বানানোর হাতিয়ার:
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+* DOM কি ও কিভাবে কাজ করে
+* Elements সিলেক্ট করা (querySelector, getElementById)
+* Elements পরিবর্তন, যোগ/বাদ দেওয়া
+* ইভেন্ট হ্যান্ডলিং (click, input, submit ইত্যাদি)
+* ফর্ম ভ্যালিডেশন
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+#### 🔴 **৫. Advanced JavaScript**
+
+প্রফেশনাল লেভেলে পা রাখার জন্য:
+
+* Higher Order Functions
+* Callback Functions
+* Promise, Async/Await
+* Error Handling (try, catch, finally)
+* JavaScript Event Loop
+* Execution Context & Call Stack
+* Memory Management & Garbage Collection
+
+#### 🟣 **৬. OOP in JavaScript**
+
+Object Oriented Programming:
+
+* Constructor Functions
+* Prototypes & Inheritance
+* ES6 Classes
+* Encapsulation, Polymorphism, Abstraction
+
+#### ⚫ **৭. Modules & Modern JS**
+
+আধুনিক ওয়েব অ্যাপ্লিকেশনের জন্য:
+
+* ES6 Modules (import/export)
+* Babel & Transpiling
+* Webpack Introduction
+
+---
+
+### 🧑‍💻 কার জন্য এই ডকুমেন্টেশন?
+
+* যারা একদম নতুন এবং JavaScript শিখতে চায়
+* যাদের Basic জানা আছে, কিন্তু Deep Concepts পরিষ্কার না
+* যাদের Interview Preparation দরকার
+* যারা Projects বানাতে চায় বা Framework শিখতে চাইছে (React, Vue, etc.)
+
+---
+
+### 🎯 আমাদের লক্ষ্য
+
+> JavaScript শেখাকে সহজ, গুছানো ও প্র্যাকটিকাল করা — যাতে আপনি কনফিডেন্টলি কোড করতে পারেন এবং বাস্তব জীবনের প্রজেক্টে কাজ করতে পারেন।
+
